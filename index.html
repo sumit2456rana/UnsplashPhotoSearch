@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsplash</title>
+    <link rel="icon" href="https://unsplash-assets.imgix.net/marketing/press-symbol.svg?auto=format&fit=crop&q=60" type="image/x-icon"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h2 class="heroText">Unsplash Photo Search</h2>
+            <div>
+                <input type="text" id="searchBox" placeholder="Search Photos Here......">
+                <button id="searchBtn">Go!</button>
+                <p id="infoPara" class="info"></p>
+            </div>
+
+            <div id="imgContainer">
+            </div>
+
+            <div>
+                <p id="countInfoPara" class="info"></p>
+            </div>
+
+            <div class="pagination">
+                <button id="prev-btn" class="hidden btn js-prev"><< Previous Page</button>
+                <button id="next-btn" class="hidden btn js-next">Next Page >></button>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

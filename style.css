@@ -54,7 +54,7 @@ body {
     background-size: cover;
 }
 .btn {
-    width: 180px;
+    width: 200px;
     height: 35px;
     background-color: aqua;
     border: none;
@@ -87,7 +87,7 @@ body {
     transition: 0.7s;
 }
 .result-item:hover {
-    transform: scale(1.02);
+    transform: scale(0.9);
 }
 
 @media (max-width: 444px) {
@@ -115,6 +115,4 @@ body {
     .btn {
         font-size: 1rem;
     }
-    #prev-btn {
-        width: 180px;
 }

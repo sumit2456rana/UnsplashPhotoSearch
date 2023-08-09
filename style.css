@@ -115,4 +115,6 @@ body {
     .btn {
         font-size: 1rem;
     }
+    #prev-btn {
+        width: 180px;
 }
